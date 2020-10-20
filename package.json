@@ -1,0 +1,16 @@
+{
+  "name": "Websocket-app-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ahernas/Websocket-app-chat.git",
+  "author": "Anna Garczarek <ania.garczarek@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "2.2.0"
+  }
+}
